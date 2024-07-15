@@ -73,7 +73,7 @@ const term = $('body').terminal(commands, {
     completion: true,
     prompt,
     onCommandNotFound: function() {
-        this.error(`Can you stop trying weird stuff please?, type list to display the able commands`);
+        this.error(`Can you stop trying weird stuff please?, type list to display the available commands`);
     }
 });
 
@@ -135,6 +135,7 @@ term.echo(render);
 function socials() {
     const socials = {
         github: "https://github.com/theposi",
+        mail: "theposidesign@gmail.com",
         blog: "https://theposintech.hashnode.dev/?source=top_nav_blog_home",
         instagram: "https://www.instagram.com/theposintech/?next=%2F",
         linkedin: "https://www.linkedin.com/in/cristian-zapata-arias-6733a6220/",
@@ -201,6 +202,11 @@ function skills() {
 
 function projects() {
     const projects = {
+        Cloud: {
+            title: "Cloud",
+            link: "https://github.com/theposi/cloud",
+            description: "My DevOps and cloud learning path projects.",
+        },
         dotfiles: {
             title: "Dotfiles",
             link: "https://github.com/theposi/dotfiles",
