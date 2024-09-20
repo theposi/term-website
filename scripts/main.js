@@ -202,11 +202,6 @@ function skills() {
 
 function projects() {
     const projects = {
-        Cloud: {
-            title: "Cloud",
-            link: "https://github.com/theposi/cloud",
-            description: "My DevOps and cloud learning path projects.",
-        },
         dotfiles: {
             title: "Dotfiles",
             link: "https://github.com/theposi/dotfiles",
