@@ -200,24 +200,19 @@ function projects() {
     const projects = {
         dotfiles: {
             title: "Dotfiles",
-            link?: "https://github.com/theposi/dotfiles",
+            link: "https://github.com/theposi/dotfiles",
             description: "Check how I manage my dotfiles configurations and also the apps I use \n     in my terminal-focused workflow using Git, GitHub, and Stow.",
         },
 		cursus: {
 			title: "42 Madrid",
-			link?: "https://github.com/theposi/42-madrid-cursus",
+			link: "https://github.com/theposi/42-madrid-cursus",
 			description: "Take a look at the projects I'm working on my cursus."
 		},
         nvim: {
             title: "Nvim",
-            link?: "https://github.com/theposi/nvim",
+            link: "https://github.com/theposi/nvim",
             description: "My own Neovim configs, the plugins I use and how it works as an IDE." 
         },
-		future: {
-			title: "Incoming",
-			link?: "",
-			description: "A home server with a Rapsberry Pi, some Arduino robots implementations, python scripting and more.",
-		}
     }
 
     const openbr = "[";
