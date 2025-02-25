@@ -153,14 +153,13 @@ function skills() {
         langs: [
             "C",
             "Bash",
-            "JavaScript",
-            "TypeScript",
         ],
 
         tools: [
             "Vim & Neovim",
             "Git",
             "VsCode",
+			"Terminal",
         ],
 
         web: [
@@ -170,12 +169,9 @@ function skills() {
         ], 
 
         inProgress: [
-            "AWS",
-            "Linux & OS",
-            "Docker",
-            "Kubernetes",
-            "Virtualization VM",
-            "System Administration"
+            "Embedded systems",
+			"Electronics",
+			"Linux & OS",
         ],
     };
 
@@ -204,29 +200,24 @@ function projects() {
     const projects = {
         dotfiles: {
             title: "Dotfiles",
-            link: "https://github.com/theposi/dotfiles",
+            link?: "https://github.com/theposi/dotfiles",
             description: "Check how I manage my dotfiles configurations and also the apps I use \n     in my terminal-focused workflow using Git, GitHub, and Stow.",
         },
+		cursus: {
+			title: "42 Madrid",
+			link?: "https://github.com/theposi/42-madrid-cursus",
+			description: "Take a look at the projects I'm working on my cursus."
+		},
         nvim: {
             title: "Nvim",
-            link: "https://github.com/theposi/dotfiles/tree/main/.config/nvim",
+            link?: "https://github.com/theposi/nvim",
             description: "My own Neovim configs, the plugins I use and how it works as an IDE." 
         },
-        i3: {
-            title: "i3wm",
-            link: "https://github.com/theposi/dotfiles/tree/main/.config/i3",
-            description: "The window manager I use and how I configured it." 
-        },
-        cursus: {
-            title: "42 Madrid",
-            link: "https://github.com/theposi/42-madrid-cursus",
-            description: "Take a look at the projects I'm working on my cursus."
-        },
-        blog : {
-            title: "Tech blog",
-            link: "https://theposintech.hashnode.dev/",
-            description: "Check my tech blog about Nvim, Linux, commands and more."
-        },
+		future: {
+			title: "Incoming",
+			link?: "",
+			description: "A home server with a Rapsberry Pi, some Arduino robots implementations, python scripting and more.",
+		}
     }
 
     const openbr = "[";
